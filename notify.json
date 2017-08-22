@@ -1,0 +1,22 @@
+[
+    {
+        "type":"ms.vss-release.deployment-started-event",
+        "color":"blue",
+        "control":"blinknormal"
+    },
+    {
+        "type":"ms.vss-release.deployment-completed-event",
+        "color":"green",
+        "control":"on"
+    },
+    {
+        "type":"build.complete",
+        "color":"blue",
+        "control":"on"
+    },
+    {
+        "type":"git.push",
+        "color":"blue",
+        "control":"blinkslow"
+    }
+]

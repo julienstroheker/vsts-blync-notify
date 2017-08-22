@@ -1,0 +1,22 @@
+{
+  "name": "vsts-blync-notify",
+  "version": "1.0.0",
+  "description": "Get notifications on a BlyncLight USB 30 from VSTS when events happening",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "tunnel": "ngrok http 8080",
+    "expose": "npm-run-all --parallel start tunnel"
+  },
+  "author": "julienstroheker",
+  "license": "MIT",
+  "dependencies": {
+    "blync-usb30": "^1.0.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.2"
+  }
+}
