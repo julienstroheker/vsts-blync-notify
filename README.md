@@ -17,7 +17,7 @@ It uses the following npm package : [blync-usb30](https://www.npmjs.com/package/
 
 ## How it works ##
 
-### Localy ###
+### Locally ###
 
 Prerequisites, we are using ngrok to expose externally our app
 ```
