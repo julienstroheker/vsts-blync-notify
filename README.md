@@ -1,6 +1,6 @@
 # vsts-blync-notify #
 
-Funny project, featuring hack, to get notifications on a BlyncLight USB 30 from VSTS when events happening.
+Funny project, featuring hack, to get notifications on a BlyncLight USB 30 from VSTS when events happen.
 
 ![](./docs/blyncusb30.gif)
 
